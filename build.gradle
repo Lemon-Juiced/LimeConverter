@@ -71,23 +71,23 @@ dependencies {
     compileOnly fg.deobf("curse.maven:lemon-core-840168:4799307")
 
     // JEI
-    compileOnly fg.deobf("mezz.jei:jei-1.20.1-common-api:15.0.0.15")
-    compileOnly fg.deobf("mezz.jei:jei-1.20.1-forge-api:15.0.0.15")
-    runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-common:15.0.0.15")
-    runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-forge:15.0.0.15")
+    compileOnly fg.deobf("mezz.jei:jei-1.20.1-common-api:15.2.0.27")
+    compileOnly fg.deobf("mezz.jei:jei-1.20.1-forge-api:15.2.0.27")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-common:15.2.0.27")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-forge:15.2.0.27")
 
     // Compatibility Section
     // Ad Astra
-    runtimeOnly fg.deobf("curse.maven:ad-astra-635042:4774342")
-    runtimeOnly fg.deobf("curse.maven:botarium-704113:4672475")
-    runtimeOnly fg.deobf("curse.maven:resourceful-config-714059:4683092")
-    runtimeOnly fg.deobf("curse.maven:resourceful-lib-570073:4811210")
+    //runtimeOnly fg.deobf("curse.maven:ad-astra-635042:4774342")
+    //runtimeOnly fg.deobf("curse.maven:botarium-704113:4672475")
+    //runtimeOnly fg.deobf("curse.maven:resourceful-config-714059:4683092")
+    //runtimeOnly fg.deobf("curse.maven:resourceful-lib-570073:4811210")
     // Applied Energistics 2
     runtimeOnly fg.deobf("curse.maven:applied-energistics-2-223794:4783930")
     // Bigger Reactors
-    runtimeOnly fg.deobf("curse.maven:biggerreactors-407780:4807004")
-    runtimeOnly fg.deobf("curse.maven:phosphophyllite-412551:4806749")
-    runtimeOnly fg.deobf("curse.maven:quartz-552262:4806750")
+    //runtimeOnly fg.deobf("curse.maven:biggerreactors-407780:4807004")
+    //runtimeOnly fg.deobf("curse.maven:phosphophyllite-412551:4806749")
+    //runtimeOnly fg.deobf("curse.maven:quartz-552262:4806750")
     // Create
     runtimeOnly fg.deobf("curse.maven:create-328085:4762216")
     // Ender IO
