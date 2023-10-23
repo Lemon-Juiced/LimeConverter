@@ -66,15 +66,15 @@ repositories {
 dependencies {
     minecraft "net.neoforged:forge:${minecraft_version}-${neo_version}"
 
+    // Lemon Core Dependency
+    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4799307")
+    compileOnly fg.deobf("curse.maven:lemon-core-840168:4799307")
+
     // JEI
     compileOnly fg.deobf("mezz.jei:jei-1.20.1-common-api:15.0.0.15")
     compileOnly fg.deobf("mezz.jei:jei-1.20.1-forge-api:15.0.0.15")
     runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-common:15.0.0.15")
     runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-forge:15.0.0.15")
-
-    // Lemon Core Dependency
-    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4799307")
-    compileOnly fg.deobf("curse.maven:lemon-core-840168:4799307")
 
     // Compatibility Section
     // Ad Astra
@@ -106,9 +106,9 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:mcjtylib-233105:4747680")
     runtimeOnly fg.deobf("curse.maven:rftools-base-326041:4747681")
     // Thermal Series
-    // No Release
+    // ---> No Release
     // Tinkers Construct
-    // No Release
+    // ---> No Release
 }
 
 tasks.withType(ProcessResources).configureEach {
