@@ -76,8 +76,39 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4799307")
     compileOnly fg.deobf("curse.maven:lemon-core-840168:4799307")
 
+    // Compatibility Section
+    // Ad Astra
+    runtimeOnly fg.deobf("curse.maven:ad-astra-635042:4774342")
+    runtimeOnly fg.deobf("curse.maven:botarium-704113:4672475")
+    runtimeOnly fg.deobf("curse.maven:resourceful-config-714059:4683092")
+    runtimeOnly fg.deobf("curse.maven:resourceful-lib-570073:4811210")
+    // Applied Energistics 2
+    runtimeOnly fg.deobf("curse.maven:applied-energistics-2-223794:4783930")
+    // Bigger Reactors
+    runtimeOnly fg.deobf("curse.maven:biggerreactors-407780:4807004")
+    runtimeOnly fg.deobf("curse.maven:phosphophyllite-412551:4806749")
+    runtimeOnly fg.deobf("curse.maven:quartz-552262:4806750")
+    // Create
+    runtimeOnly fg.deobf("curse.maven:create-328085:4762216")
     // Ender IO
     runtimeOnly fg.deobf("curse.maven:ender-io-64578:4800730")
+    // Extreme Reactors
+    runtimeOnly fg.deobf("curse.maven:extreme-reactors-250277:4800154")
+    runtimeOnly fg.deobf("curse.maven:zerocore-247921:4702626")
+    // Mekanism
+    runtimeOnly fg.deobf("curse.maven:mekanism-268560:4807067")
+    runtimeOnly fg.deobf("curse.maven:mekanism-additions-345425:4807069")
+    runtimeOnly fg.deobf("curse.maven:mekanism-generators-268566:4807070")
+    runtimeOnly fg.deobf("curse.maven:mekanism-tools-268567:4807071")
+    // Refined Storage
+    runtimeOnly fg.deobf("curse.maven:refined-storage-243076:4630564")
+    // RFTools
+    runtimeOnly fg.deobf("curse.maven:mcjtylib-233105:4747680")
+    runtimeOnly fg.deobf("curse.maven:rftools-base-326041:4747681")
+    // Thermal Series
+    // No Release
+    // Tinkers Construct
+    // No Release
 }
 
 tasks.withType(ProcessResources).configureEach {

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lime_converter:polishing_cloth"
+    },
+    {
+      "item": "lemon_core:ostrum_ingot"
+    }
+  ],
+  "result": {
+    "item": "ad_astra:ostrum_ingot",
+    "count": 1
+  }
+}
