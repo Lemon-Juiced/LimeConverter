@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lime_converter:polishing_cloth"
+    },
+    {
+      "item": "lemon_core:quartz_enriched_iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "refinedstorage:quartz_enriched_iron",
+    "count": 1
+  }
+}

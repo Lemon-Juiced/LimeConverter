@@ -67,8 +67,8 @@ dependencies {
     minecraft "net.neoforged:forge:${minecraft_version}-${neo_version}"
 
     // Lemon Core Dependency
-    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4799307")
-    compileOnly fg.deobf("curse.maven:lemon-core-840168:4799307")
+    runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4813769")
+    compileOnly fg.deobf("curse.maven:lemon-core-840168:4813769")
 
     // JEI
     compileOnly fg.deobf("mezz.jei:jei-1.20.1-common-api:15.2.0.27")
